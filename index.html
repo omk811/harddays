@@ -1,12 +1,13 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
 <title>في أيام الشدة | درس القراءة</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+
+
 <style>
 :root{
   --bg:#f7f8fb;
@@ -244,295 +245,238 @@ button{font:inherit}
   .slide{display:block!important;min-height:auto;break-after:page;box-shadow:none;margin-bottom:20px}
 }
 </style>
-</head>
+<style>
+/* Presentation layout: fixed controls, scrolling content, large touch targets. */
+html,body{height:100%;overflow:hidden;scroll-behavior:auto}
+body{font-family:Tahoma,Arial,sans-serif;background:#f4f1eb}
+.app{max-width:none;height:100vh;height:100dvh;min-height:0;padding:12px 3vw;display:grid;grid-template-rows:auto 4px minmax(0,1fr) auto;gap:10px}
+.topbar{position:static;margin:0;padding:4px 0;background:transparent;backdrop-filter:none;border:0;gap:10px}
+.controls{flex-wrap:nowrap;gap:8px}.ctrl{min-height:48px;min-width:48px;font-size:18px;white-space:nowrap;border:1px solid #d2c6b6;touch-action:manipulation}
+.brand h1{font-size:24px}.brand small{display:block;font-size:14px;color:#444}.logo{width:44px;height:44px}
+.progress{margin:0;height:4px}.deck{min-height:0;overflow:hidden}
+.slide{height:100%;min-height:0!important;overflow-y:auto;overflow-x:hidden;padding:24px 32px;border-radius:20px;box-shadow:none;scrollbar-color:#a84d16 #eee;overscroll-behavior:contain;scroll-padding:20px}
+.slide.active{animation:none}.slide-title{margin-bottom:18px}.slide-title h2{font-size:clamp(28px,2.7vw,46px)}.slide-title p{font-size:20px}
+.num{width:46px;height:46px;font-size:22px}.hero{min-height:100%;height:auto;gap:28px}
+.hero h2{font-size:clamp(44px,5vw,76px)}.hero p{font-size:clamp(24px,2.1vw,34px);line-height:1.65}
+.card p,.card li{font-size:clamp(23px,2vw,32px);line-height:1.65}.card h3{font-size:28px}.card{padding:22px}
+.reading-box{max-height:none;overflow:visible;font-size:clamp(28px,2.65vw,44px);line-height:1.95;padding:24px;border-width:1px}
+.question{max-width:1200px;margin:20px auto;padding:clamp(20px,3vw,44px);background:#fffcf7}.question strong{font-size:clamp(28px,2.7vw,44px);line-height:1.8}
+.answer{font-size:clamp(25px,2.3vw,36px);line-height:1.8}.reveal{min-height:52px;padding:12px 22px;font-size:22px}
+.option{min-height:64px;font-size:clamp(23px,2.1vw,34px);line-height:1.6}.option.correct::after{content:' ✓'}.option.wrong::after{content:' ✕'}
+.idea,.relation .sentence{font-size:clamp(24px,2vw,32px);line-height:1.7}.badge{font-size:22px}.mini-table td,.mini-table th{font-size:clamp(23px,2vw,32px)}
+.vocab::after{display:none}.vocab{touch-action:manipulation}
+.nav{margin:0;padding:4px 0;min-height:60px}.nav button{min-width:150px;min-height:56px;font-size:22px}.counter{font-size:18px;text-align:center}
+button{touch-action:manipulation}button:disabled{opacity:.4;cursor:default}button:focus-visible,.vocab:focus-visible{outline:4px solid #0f766e;outline-offset:3px}
+dialog{border:1px solid #dbc4a5;border-radius:22px;color:#1f2937;padding:26px;width:min(800px,90vw);max-height:85dvh;overflow:auto}dialog::backdrop{background:#17203399}.menu-head{display:flex;align-items:center;justify-content:space-between;gap:12px}#menuItems{display:grid;gap:10px}#menuItems button{text-align:right;min-height:54px;background:#fff7eb;border:1px solid #e3c9a8;border-radius:12px;padding:12px;font-size:20px}#meaning p{font-size:32px;line-height:1.7}
+#notice{position:fixed;bottom:90px;left:50%;transform:translateX(-50%);background:#172033;color:white;padding:14px 22px;border-radius:16px;display:none;z-index:90;font-size:20px}
+.quiz-tools{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:20px 0;font-size:22px}
+@media(max-width:900px){.controls .ctrl:not(.primary){display:block}.topbar{position:static}.hero,.grid2,.grid3{grid-template-columns:repeat(2,minmax(0,1fr))}.grid3{grid-template-columns:1fr}.brand small{display:block}.reading-box{font-size:28px;line-height:1.9}.options{grid-template-columns:repeat(2,minmax(0,1fr))}.relation{grid-template-columns:1fr auto 1fr}.arrow{transform:none}.slide{padding:20px}.brand h1{font-size:20px}}
+@media(max-width:600px){.app{padding:8px;gap:6px}.logo{display:none}.topbar{flex-wrap:wrap}.brand{width:100%;justify-content:space-between}.brand small{font-size:12px}.brand h1{font-size:19px}.controls{width:100%;justify-content:space-between}.ctrl{font-size:16px;padding:8px}.hero,.grid2,.grid3,.options,.relation{grid-template-columns:1fr}.hero h2{font-size:42px}.hero p{font-size:22px}.nav button{min-width:110px;font-size:18px}.counter{font-size:14px}.slide{padding:18px 14px}.slide-title h2{font-size:25px}.slide-title p{font-size:16px}.reading-box{font-size:25px;padding:14px}.question strong{font-size:25px}.answer{font-size:23px}.arrow{text-align:center}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media print{html,body{height:auto;overflow:visible}.app{display:block;height:auto}.deck{overflow:visible}.slide{height:auto;overflow:visible}.controls,dialog,#notice{display:none!important}}
+</style></head>
 <body>
 <main class="app">
-  <div class="topbar">
-    <div class="brand">
-      <div class="logo">ق</div>
-      <div>
-        <h1>في أيام الشدة</h1>
-        <small>درس القراءة • الصف الخامس الأساسي</small>
-      </div>
-    </div>
-    <div class="controls">
-      <button class="ctrl" onclick="changeFont(1)">أ+</button>
-      <button class="ctrl" onclick="changeFont(-1)">أ−</button>
-      <button class="ctrl" onclick="toggleFullscreen()">⛶ ملء الشاشة</button>
-      <button class="ctrl primary" onclick="goTo(0)">⌂ البداية</button>
-    </div>
-  </div>
-  <div class="progress"><span id="progress"></span></div>
-
-  <section class="deck">
-
-    <article class="slide active">
-      <div class="hero">
-        <div>
-          <span class="eyebrow">📖 قراءة وفهم وتحليل</span>
-          <h2>في أيام الشدة</h2>
-          <p>درس تفاعلي يركز على مهارات القراءة: التهيئة، المعجم، الفهم المباشر، الاستنتاج، تحليل الشخصيات، العلاقات بين الجمل، القيم، وإبداء الرأي.</p>
-          <div class="idea" style="margin-top:28px">الفكرة المحورية: التضامن والتعاون والعطاء وقت الأزمات.</div>
-        </div>
-        <div class="hero-card">
-          <div class="big-icon">🤝</div>
-          <h3>سؤال البداية</h3>
-          <p>ماذا يفعل الناس عندما تمرّ بهم ظروف صعبة؟ وكيف يستطيع الإنسان أن يكون عونًا لغيره؟</p>
-        </div>
-      </div>
-    </article>
-
-    <article class="slide">
-      <div class="slide-title"><div class="num">1</div><div><h2>قبل القراءة</h2><p>أستعد للنص وأتوقع مضمونه</p></div></div>
-      <div class="grid3">
-        <div class="card skill"><span class="tag">أتوقع</span><h3>من العنوان</h3><p>ماذا تتوقع أن تعني عبارة <b>أيام الشدة</b>؟ وما نوع الأحداث التي قد نجدها في النص؟</p></div>
-        <div class="card skill"><span class="tag">أربط</span><h3>من خبرتي</h3><p>اذكر موقفًا رأيت فيه أفرادًا يساعد بعضهم بعضًا في ظرف صعب.</p></div>
-        <div class="card skill"><span class="tag">أحدد غرضي</span><h3>لماذا أقرأ؟</h3><p>سأقرأ لأتعرف كيف واجه الناس الشدة، وكيف كانت الأم قدوة في العطاء.</p></div>
-      </div>
-      <div class="card" style="margin-top:20px">
-        <h3>مهارات أركز عليها أثناء القراءة</h3>
-        <div class="grid3">
-          <p>🔎 ألتقط الكلمات الجديدة من السياق.</p>
-          <p>🧠 أستنتج مشاعر الشخصيات ودوافعها.</p>
-          <p>🔗 أربط السبب بالنتيجة وأميز العلاقات بين الجمل.</p>
-        </div>
-      </div>
-    </article>
-
-    <article class="slide">
-      <div class="slide-title"><div class="num">2</div><div><h2>المحطة الأولى: مواجهة الأزمة</h2><p>أقرأ ثم أحدد الفكرة والتفاصيل</p></div></div>
-      <div class="reading-box">
+<div class="topbar">
+<div class="brand">
+<div class="logo">ق</div>
+<div>
+<h1>في أيام الشدة</h1>
+<small>الصف الخامس • الأستاذ خليل البلوشي</small>
+</div>
+</div>
+<div class="controls"><button class="ctrl" onclick="toggleFullscreen()">⛶ ملء الشاشة</button><button aria-label="تكبير الخط" class="ctrl" onclick="changeFont(1)">أ+</button><button aria-label="تصغير الخط" class="ctrl" onclick="changeFont(-1)">أ−</button><button class="ctrl" onclick="openMenu()">☰ الفهرس</button></div>
+</div>
+<div class="progress"><span id="progress"></span></div>
+<section class="deck">
+<article class="slide active">
+<div class="hero">
+<div>
+<span class="eyebrow">📖 قراءة وفهم وتحليل</span>
+<h2>في أيام الشدة</h2>
+<p>درس تفاعلي يركز على مهارات القراءة: التهيئة، المعجم، الفهم المباشر، الاستنتاج، تحليل الشخصيات، العلاقات بين الجمل، القيم، وإبداء الرأي.</p>
+<div class="idea" style="margin-top:28px">الفكرة المحورية: التضامن والتعاون والعطاء وقت الأزمات.</div>
+</div>
+<div class="hero-card">
+<div class="big-icon">🤝</div>
+<h3>سؤال البداية</h3>
+<p>ماذا يفعل الناس عندما تمرّ بهم ظروف صعبة؟ وكيف يستطيع الإنسان أن يكون عونًا لغيره؟</p>
+</div>
+</div>
+</article>
+<article class="slide">
+<div class="slide-title"><div class="num">1</div><div><h2>قبل القراءة</h2><p>أستعد للنص وأتوقع مضمونه</p></div></div>
+<div class="grid3">
+<div class="card skill"><span class="tag">أتوقع</span><h3>من العنوان</h3><p>ماذا تتوقع أن تعني عبارة <b>أيام الشدة</b>؟ وما نوع الأحداث التي قد نجدها في النص؟</p></div>
+<div class="card skill"><span class="tag">أربط</span><h3>من خبرتي</h3><p>اذكر موقفًا رأيت فيه أفرادًا يساعد بعضهم بعضًا في ظرف صعب.</p></div>
+<div class="card skill"><span class="tag">أحدد غرضي</span><h3>لماذا أقرأ؟</h3><p>سأقرأ لأتعرف كيف واجه الناس الشدة، وكيف كانت الأم قدوة في العطاء.</p></div>
+</div>
+<div class="card" style="margin-top:20px">
+<h3>مهارات أركز عليها أثناء القراءة</h3>
+<div class="grid3">
+<p>🔎 ألتقط الكلمات الجديدة من السياق.</p>
+<p>🧠 أستنتج مشاعر الشخصيات ودوافعها.</p>
+<p>🔗 أربط السبب بالنتيجة وأميز العلاقات بين الجمل.</p>
+</div>
+</div>
+</article>
+<article class="slide"><div class="slide-title"><div class="num">2</div><div><h2>المحطة الأولى: مواجهة الأزمة</h2><p>أقرأ ثم أحدد الفكرة والتفاصيل</p></div></div><div class="reading-box">
         إنّني لا أعرف، أو لا أذكر تفاصيلَ الأزمةِ التي واجهها الناسُ في سنواتِ الشدّةِ، لا أدري كيفَ تصرّفوا، وماذا فعلوا، ولا بأيّةِ وسائلَ صمدوا.
-        لقد <span class="vocab" tabindex="0" data-meaning="تمسّكوا بقوة">تشبّثوا</span> بالحياةِ بكلّ ما فيهم من قوّةٍ؛
+        لقد <span class="vocab" data-meaning="تمسّكوا بقوة" tabindex="0">تشبّثوا</span> بالحياةِ بكلّ ما فيهم من قوّةٍ؛
         فقد جابوا المدينةَ باحثينَ عن العملِ والرزقِ، واستعانوا بالناسِ، كما استعانَ الناسُ بهم، وباعوا واشتروا ما وسِعَهُم ذلك،
         وادّخروا بعضًا مما كسبوا، واقتصدوا في العيشِ ما استطاعوا إلى ذلك سبيلاً، ورُغمَ هذا ظلَّ الحيُّ يعاني من صعوباتٍ جَمَّةٍ.
-      </div>
-      <div class="idea">الفكرة الجزئية: تمسّك الناس بالحياة وسعوا إلى العمل والرزق رغم صعوبة الظروف.</div>
-      <div class="grid2" style="margin-top:16px">
-        <div class="question"><strong>ما الأعمال التي قام بها الناس لمواجهة الشدة؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">بحثوا عن العمل والرزق، استعان بعضهم ببعض، باعوا واشتروا، ادخروا واقتصدوا.</div></div>
-        <div class="question"><strong>ما دلالة عبارة «تشبثوا بالحياة»؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">تدل على قوة الإرادة وعدم الاستسلام للظروف الصعبة.</div></div>
-      </div>
-    </article>
+      </div></article><article class="slide"><div class="slide-title"><div class="num">2</div><div><h2>المحطة الأولى: مواجهة الأزمة — أفهم وأناقش</h2><p>أقرأ ثم أحدد الفكرة والتفاصيل</p></div></div><div class="question"><strong>ما الأعمال التي قام بها الناس لمواجهة الشدة؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">بحثوا عن العمل والرزق، استعان بعضهم ببعض، باعوا واشتروا، ادخروا واقتصدوا.</div></div></article><article class="slide"><div class="slide-title"><div class="num">2</div><div><h2>المحطة الأولى: مواجهة الأزمة — أفهم وأناقش</h2><p>أقرأ ثم أحدد الفكرة والتفاصيل</p></div></div><div class="question"><strong>ما دلالة عبارة «تشبثوا بالحياة»؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">تدل على قوة الإرادة وعدم الاستسلام للظروف الصعبة.</div></div></article><article class="slide">
+<div class="slide-title"><div class="num">2</div><div><h2>المحطة الأولى: مواجهة الأزمة — أفهم وأناقش</h2><p>أقرأ ثم أحدد الفكرة والتفاصيل</p></div></div>
 
-    <article class="slide">
-      <div class="slide-title"><div class="num">3</div><div><h2>المحطة الثانية: الأم قدوة في العطاء</h2><p>أقرأ وأستنتج المشاعر والدوافع</p></div></div>
-      <div class="reading-box">
+<div class="idea">الفكرة الجزئية: تمسّك الناس بالحياة وسعوا إلى العمل والرزق رغم صعوبة الظروف.</div>
+
+</article>
+<article class="slide"><div class="slide-title"><div class="num">3</div><div><h2>المحطة الثانية: الأم قدوة في العطاء</h2><p>أقرأ وأستنتج المشاعر والدوافع</p></div></div><div class="reading-box">
         بَدَتْ عائِلَتُنا أَفْضَلَ حالاً من العائلاتِ الأخرى، فالطعامُ وغيرُه، على ندرَتِه، موفورٌ عندَنا،
-        وكثيرًا ما كانتْ أُمّي تَجْمَعُ ما فاضَ عن حاجتِنا، وَتَخْرُجُ في المساءِ <span class="vocab" tabindex="0" data-meaning="لتعطي">لِتَهَبَ</span> ما تَقْدُرُ أنَّه يَزِيدُ عن حاجَتِنا للجيرانِ،
+        وكثيرًا ما كانتْ أُمّي تَجْمَعُ ما فاضَ عن حاجتِنا، وَتَخْرُجُ في المساءِ <span class="vocab" data-meaning="لتعطي" tabindex="0">لِتَهَبَ</span> ما تَقْدُرُ أنَّه يَزِيدُ عن حاجَتِنا للجيرانِ،
         وهي سعيدةٌ بذلك غايةَ السعادةِ، مستشعرةً راحةً نفسيةً؛ إذ يسّرَ اللهُ لها أن تمدَّ يدًا للناسِ كما مدَّ الناسُ أيديَهُم إلينا فيما مضى.
-        كانت كلَّ صباحٍ تسألُ ربَّها أن <span class="vocab" tabindex="0" data-meaning="يرحم ويرفق">يَرْأَفَ</span> بالعبادِ، ويرزقَهم من فيضِ خيرِه...
-      </div>
-      <div class="idea">الفكرة الجزئية: الأم تردّ الجميل للجيران وتجد سعادتها في مساعدتهم.</div>
-      <div class="grid2" style="margin-top:16px">
-        <div class="question"><strong>لماذا شعرت الأم براحة نفسية عندما أعطت الجيران؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">لأنها استطاعت أن تساعد الناس كما ساعدوها من قبل، فأحست بقيمة رد الجميل.</div></div>
-        <div class="question"><strong>استنتج صفتين من صفات الأم.</strong><button class="reveal">إظهار الإجابة</button><div class="answer">كريمة، رحيمة، شاكرة للجميل، محبة للخير. ويقبل ما يناسب النص.</div></div>
-      </div>
-    </article>
+        كانت كلَّ صباحٍ تسألُ ربَّها أن <span class="vocab" data-meaning="يرحم ويرفق" tabindex="0">يَرْأَفَ</span> بالعبادِ، ويرزقَهم من فيضِ خيرِه...
+      </div></article><article class="slide"><div class="slide-title"><div class="num">3</div><div><h2>المحطة الثانية: الأم قدوة في العطاء — أفهم وأناقش</h2><p>أقرأ وأستنتج المشاعر والدوافع</p></div></div><div class="question"><strong>لماذا شعرت الأم براحة نفسية عندما أعطت الجيران؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">لأنها استطاعت أن تساعد الناس كما ساعدوها من قبل، فأحست بقيمة رد الجميل.</div></div></article><article class="slide"><div class="slide-title"><div class="num">3</div><div><h2>المحطة الثانية: الأم قدوة في العطاء — أفهم وأناقش</h2><p>أقرأ وأستنتج المشاعر والدوافع</p></div></div><div class="question"><strong>استنتج صفتين من صفات الأم.</strong><button class="reveal">إظهار الإجابة</button><div class="answer">كريمة، رحيمة، شاكرة للجميل، محبة للخير. ويقبل ما يناسب النص.</div></div></article><article class="slide">
+<div class="slide-title"><div class="num">3</div><div><h2>المحطة الثانية: الأم قدوة في العطاء — أفهم وأناقش</h2><p>أقرأ وأستنتج المشاعر والدوافع</p></div></div>
 
-    <article class="slide">
-      <div class="slide-title"><div class="num">4</div><div><h2>المحطة الثالثة: وصايا الأم</h2><p>أميز الأمر والنهي وأفهم الرسالة</p></div></div>
-      <div class="reading-box">
+<div class="idea">الفكرة الجزئية: الأم تردّ الجميل للجيران وتجد سعادتها في مساعدتهم.</div>
+
+</article>
+<article class="slide"><div class="slide-title"><div class="num">4</div><div><h2>المحطة الثالثة: وصايا الأم</h2><p>أميز الأمر والنهي وأفهم الرسالة</p></div></div><div class="reading-box">
         كانت توصيني قبل ذهابها أن أكون مهذبًا، <mark>وألا ألعب في التراب، وألا أوسخ ثيابي، وألا أسيء إلى الآخرين، وألا أتشاجر مع رفاقي.</mark>
         وكانت تقول لي: «إذا كنت تأكل شيئًا ورأيت طفلًا إلى جانبك، <mark>فادعه إلى مشاركتك طعامك</mark>؛ يجب ألا نشبع نحن ويجوع الآخرون...
         وعلينا أن نتذكر دائمًا أن حالنا مثل حال أهل الحي، وأن علينا واجب مساعدتهم إذا استطعنا».
-      </div>
-      <div class="grid3" style="margin-top:18px">
-        <div class="card"><h3>أسلوب نهي</h3><p>ألا ألعب – ألا أوسخ – ألا أسيء – ألا أتشاجر.</p></div>
-        <div class="card"><h3>أسلوب أمر</h3><p>فادعه إلى مشاركتك طعامك.</p></div>
-        <div class="card"><h3>الرسالة</h3><p>حسن الخلق ومشاركة الآخرين والعطف عليهم.</p></div>
-      </div>
-    </article>
+      </div></article><article class="slide">
+<div class="slide-title"><div class="num">4</div><div><h2>المحطة الثالثة: وصايا الأم — أفهم وأناقش</h2><p>أميز الأمر والنهي وأفهم الرسالة</p></div></div>
 
-    <article class="slide">
-      <div class="slide-title"><div class="num">5</div><div><h2>المحطة الرابعة: الابن يقتدي بأمه</h2><p>أحدد أثر القدوة في السلوك</p></div></div>
-      <div class="reading-box">
+<div class="grid3" style="margin-top:18px">
+<div class="card"><h3>أسلوب نهي</h3><p>ألا ألعب – ألا أوسخ – ألا أسيء – ألا أتشاجر.</p></div>
+<div class="card"><h3>أسلوب أمر</h3><p>فادعه إلى مشاركتك طعامك.</p></div>
+<div class="card"><h3>الرسالة</h3><p>حسن الخلق ومشاركة الآخرين والعطف عليهم.</p></div>
+</div>
+</article>
+<article class="slide"><div class="slide-title"><div class="num">5</div><div><h2>المحطة الرابعة: الابن يقتدي بأمه</h2><p>أحدد أثر القدوة في السلوك</p></div></div><div class="reading-box">
         من أجل ذلك، وحتى دون أن تكون أمي بحاجة إلى تذكيري، كنت أحمل ما في يدي من أكل أو غيره إلى الأطفال في حينا.
         وكنت أسرّ إذ أراها تحمل بعض الأشياء من بيتنا إلى جيراننا.
         وكانت أحيانًا تمد يدها إلى حقيبتها، وتتناول منديلًا عقدت طرفه على بعض المال، فتعطي منه هذه الجارة أو تلك،
-        وكانت تطلعني على كل شيء، وتفتح قلبها لي، <span class="vocab" tabindex="0" data-meaning="تشجعني وتدفعني">وتحثني</span> على عمل الخير، وتثق بأنني أطيعها وأنفذ رغباتها.
-      </div>
-      <div class="idea">الفكرة الجزئية: تحولت نصائح الأم وقدوتها إلى سلوك عملي عند الابن.</div>
-      <div class="question"><strong>ما الدليل على أن الابن تأثر بأمه؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">كان يحمل الطعام وغيره إلى أطفال الحي دون أن تنتظر أمه منه ذلك.</div></div>
-    </article>
+        وكانت تطلعني على كل شيء، وتفتح قلبها لي، <span class="vocab" data-meaning="تشجعني وتدفعني" tabindex="0">وتحثني</span> على عمل الخير، وتثق بأنني أطيعها وأنفذ رغباتها.
+      </div></article><article class="slide">
+<div class="slide-title"><div class="num">5</div><div><h2>المحطة الرابعة: الابن يقتدي بأمه — أفهم وأناقش</h2><p>أحدد أثر القدوة في السلوك</p></div></div>
 
-    <article class="slide">
-      <div class="slide-title"><div class="num">6</div><div><h2>ثروتي اللغوية</h2><p>أفهم الكلمة من السياق وأستخدمها</p></div></div>
-      <table class="mini-table">
-        <thead><tr><th>الكلمة</th><th>المعنى في السياق</th><th>توظيفها</th></tr></thead>
-        <tbody>
-          <tr><td><b>تشبثوا</b></td><td>تمسكوا بقوة</td><td>تشبث الطالب بالأمل.</td></tr>
-          <tr><td><b>لتهب</b></td><td>لتعطي</td><td>ذهبت الأم لتهب الفائض للمحتاجين.</td></tr>
-          <tr><td><b>يرأف</b></td><td>يرحم ويرفق</td><td>يرأف الرحيم بالضعيف.</td></tr>
-          <tr><td><b>تحثني</b></td><td>تشجعني وتدفعني</td><td>تحثني أسرتي على القراءة.</td></tr>
-          <tr><td><b>جمّة</b></td><td>كثيرة</td><td>واجه الناس صعوبات جمّة.</td></tr>
-        </tbody>
-      </table>
-      <div class="grid2">
-        <div class="question"><strong>مضاد «تشبثوا» الأقرب في المعنى:</strong><div class="options"><button class="option" data-correct="0">تمسكوا</button><button class="option" data-correct="1">استسلموا</button><button class="option" data-correct="0">تعاونوا</button><button class="option" data-correct="0">اقتصدوا</button></div></div>
-        <div class="question"><strong>«لتهب» تعني:</strong><div class="options"><button class="option" data-correct="0">لتأخذ</button><button class="option" data-correct="1">لتعطي</button><button class="option" data-correct="0">لتمنع</button><button class="option" data-correct="0">لتدخر</button></div></div>
-      </div>
-    </article>
+<div class="idea">الفكرة الجزئية: تحولت نصائح الأم وقدوتها إلى سلوك عملي عند الابن.</div>
+<div class="question"><strong>ما الدليل على أن الابن تأثر بأمه؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">كان يحمل الطعام وغيره إلى أطفال الحي دون أن تنتظر أمه منه ذلك.</div></div>
+</article>
+<article class="slide"><div class="slide-title"><div class="num">6</div><div><h2>ثروتي اللغوية</h2><p>أفهم الكلمة من السياق وأستخدمها</p></div></div><div class="question"><strong>مضاد «تشبثوا» الأقرب في المعنى:</strong><div class="options"><button class="option" data-correct="0">تمسكوا</button><button class="option" data-correct="1">استسلموا</button><button class="option" data-correct="0">تعاونوا</button><button class="option" data-correct="0">اقتصدوا</button></div></div></article><article class="slide"><div class="slide-title"><div class="num">6</div><div><h2>ثروتي اللغوية</h2><p>أفهم الكلمة من السياق وأستخدمها</p></div></div><div class="question"><strong>«لتهب» تعني:</strong><div class="options"><button class="option" data-correct="0">لتأخذ</button><button class="option" data-correct="1">لتعطي</button><button class="option" data-correct="0">لتمنع</button><button class="option" data-correct="0">لتدخر</button></div></div></article><article class="slide">
+<div class="slide-title"><div class="num">6</div><div><h2>ثروتي اللغوية</h2><p>أفهم الكلمة من السياق وأستخدمها</p></div></div>
+<table class="mini-table">
+<thead><tr><th>الكلمة</th><th>المعنى في السياق</th><th>توظيفها</th></tr></thead>
+<tbody>
+<tr><td><b>تشبثوا</b></td><td>تمسكوا بقوة</td><td>تشبث الطالب بالأمل.</td></tr>
+<tr><td><b>لتهب</b></td><td>لتعطي</td><td>ذهبت الأم لتهب الفائض للمحتاجين.</td></tr>
+<tr><td><b>يرأف</b></td><td>يرحم ويرفق</td><td>يرأف الرحيم بالضعيف.</td></tr>
+<tr><td><b>تحثني</b></td><td>تشجعني وتدفعني</td><td>تحثني أسرتي على القراءة.</td></tr>
+<tr><td><b>جمّة</b></td><td>كثيرة</td><td>واجه الناس صعوبات جمّة.</td></tr>
+</tbody>
+</table>
 
-    <article class="slide">
-      <div class="slide-title"><div class="num">7</div><div><h2>الفكرة العامة والأفكار الجزئية</h2><p>ألخص النص في مستويات</p></div></div>
-      <div class="card" style="border-right:7px solid var(--primary)">
-        <h3>الفكرة العامة</h3>
-        <p style="font-size:clamp(22px,2vw,32px)">التضامن والعطاء ومساعدة الآخرين في أوقات الشدة، وأثر القدوة الحسنة في تربية الأبناء.</p>
-      </div>
-      <div class="grid2" style="margin-top:20px">
-        <div class="card"><span class="badge">1</span><p>تمسك الناس بالحياة وبحثهم عن أسباب الرزق.</p></div>
-        <div class="card"><span class="badge">2</span><p>عطاء الأم للجيران وردّها للجميل.</p></div>
-        <div class="card"><span class="badge">3</span><p>وصايا الأم لابنها بالمشاركة وحسن الخلق.</p></div>
-        <div class="card"><span class="badge">4</span><p>اقتداء الابن بأمه وتحول الخير إلى سلوك.</p></div>
-      </div>
-    </article>
+</article>
+<article class="slide">
+<div class="slide-title"><div class="num">7</div><div><h2>الفكرة العامة والأفكار الجزئية</h2><p>ألخص النص في مستويات</p></div></div>
+<div class="card" style="border-right:7px solid var(--primary)">
+<h3>الفكرة العامة</h3>
+<p style="font-size:clamp(22px,2vw,32px)">التضامن والعطاء ومساعدة الآخرين في أوقات الشدة، وأثر القدوة الحسنة في تربية الأبناء.</p>
+</div>
+<div class="grid2" style="margin-top:20px">
+<div class="card"><span class="badge">1</span><p>تمسك الناس بالحياة وبحثهم عن أسباب الرزق.</p></div>
+<div class="card"><span class="badge">2</span><p>عطاء الأم للجيران وردّها للجميل.</p></div>
+<div class="card"><span class="badge">3</span><p>وصايا الأم لابنها بالمشاركة وحسن الخلق.</p></div>
+<div class="card"><span class="badge">4</span><p>اقتداء الابن بأمه وتحول الخير إلى سلوك.</p></div>
+</div>
+</article>
+<article class="slide"><div class="slide-title"><div class="num">8</div><div><h2>الفهم المباشر</h2><p>أستخرج معلومات صريحة من النص</p></div></div><div class="question"><strong>لماذا كانت عائلة الراوي أفضل حالًا من بعض العائلات الأخرى؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">لأن الطعام وغيره كان موفورًا عندهم رغم ندرته.</div></div></article><article class="slide"><div class="slide-title"><div class="num">8</div><div><h2>الفهم المباشر</h2><p>أستخرج معلومات صريحة من النص</p></div></div><div class="question"><strong>ماذا كانت الأم تفعل بما يزيد عن حاجة الأسرة؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">كانت تجمع الفائض وتهبه للجيران المحتاجين.</div></div></article><article class="slide"><div class="slide-title"><div class="num">8</div><div><h2>الفهم المباشر</h2><p>أستخرج معلومات صريحة من النص</p></div></div><div class="question"><strong>اذكر ثلاثًا من وصايا الأم لابنها.</strong><button class="reveal">إظهار الإجابة</button><div class="answer">أن يكون مهذبًا، وألا يوسخ ثيابه، وألا يسيء إلى الآخرين أو يتشاجر معهم، وأن يشارك غيره الطعام.</div></div></article>
+<article class="slide"><div class="slide-title"><div class="num">9</div><div><h2>الاستنتاج والتحليل</h2><p>أقرأ ما وراء الكلمات</p></div></div><div class="question"><strong>لماذا كانت الأم تذكّر ابنها بموقف الطفل الذي لم يشاركه طعامه؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">لتجعله يشعر بالآخرين من خلال تجربة مرّ بها بنفسه، فيتعلم ألا يكرر السلوك المؤلم مع غيره.</div></div></article><article class="slide"><div class="slide-title"><div class="num">9</div><div><h2>الاستنتاج والتحليل</h2><p>أقرأ ما وراء الكلمات</p></div></div><div class="question"><strong>ما أثر المساعدة في نفس الأم؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">جعلتها سعيدة وشعرت براحة نفسية لأنها أعانت الناس وردّت الجميل.</div></div></article><article class="slide"><div class="slide-title"><div class="num">9</div><div><h2>الاستنتاج والتحليل</h2><p>أقرأ ما وراء الكلمات</p></div></div><div class="question"><strong>كيف ساعدت القدوة العملية على تربية الابن؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">رأى أمه تمارس الخير فعليًا، فتحولت النصيحة عنده إلى سلوك تلقائي.</div></div></article><article class="slide"><div class="slide-title"><div class="num">9</div><div><h2>الاستنتاج والتحليل</h2><p>أقرأ ما وراء الكلمات</p></div></div><div class="question"><strong>ما الشعور الذي يغلب على أهل الحي في النص؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">التعاضد والتعاون رغم الخوف والحاجة والصعوبات.</div></div></article>
+<article class="slide">
+<div class="slide-title"><div class="num">10</div><div><h2>العلاقات بين الجمل</h2><p>أفهم كيف يرتبط المعنى من جملة إلى أخرى</p></div></div>
+<div class="relation">
+<div class="sentence">جابوا المدينة باحثين عن العمل والرزق.</div>
+<div class="arrow">←</div>
+<div class="sentence"><span class="badge">سبب / وسيلة</span><br/>لأنهم كانوا يواجهون الشدة ويريدون الصمود.</div>
+</div>
+<div class="relation">
+<div class="sentence">كانت الأم سعيدة وتشعر براحة نفسية.</div>
+<div class="arrow">←</div>
+<div class="sentence"><span class="badge">تعليل</span><br/>إذ يسّر الله لها أن تمد يدًا للناس كما مد الناس أيديهم إليها.</div>
+</div>
+<div class="relation">
+<div class="sentence">كانت الأم تحث ابنها على الخير.</div>
+<div class="arrow">←</div>
+<div class="sentence"><span class="badge">نتيجة</span><br/>فصار الابن يحمل الطعام إلى أطفال الحي دون تذكير.</div>
+</div>
+<div class="card" style="margin-top:18px">
+<h3>إشارات تساعدني</h3>
+<p><b>التعليل:</b> لأن، إذ، بسبب.   <b>النتيجة:</b> لذلك، لذا، ومن أجل ذلك.   <b>التضاد:</b> لكن، رغم، غير أن.</p>
+</div>
+</article>
+<article class="slide">
+<div class="slide-title"><div class="num">11</div><div><h2>الشخصيات والقيم</h2><p>أستدل من المواقف والأفعال</p></div></div>
+<div class="grid2">
+<div class="card"><h3>الأم</h3><p><b>صفاتها:</b> كريمة، رحيمة، وفية، مربية بالقدوة.</p><p><b>الدليل:</b> تهب الفائض للجيران، تعطي المال، تدعو للناس، وتحث ابنها على الخير.</p></div>
+<div class="card"><h3>الابن</h3><p><b>صفاته:</b> مطيع، متأثر بالقدوة، محب للخير.</p><p><b>الدليل:</b> صار يحمل الطعام للأطفال دون أن يحتاج إلى تذكير.</p></div>
+</div>
+<div class="grid3" style="margin-top:18px">
+<div class="card"><h3>🤝 التعاون</h3><p>يسند الناس بعضهم بعضًا وقت الشدة.</p></div>
+<div class="card"><h3>💛 العطاء</h3><p>مشاركة ما نملك مع المحتاج.</p></div>
+<div class="card"><h3>🌱 رد الجميل</h3><p>لا ننسى من أعاننا حين كنا بحاجة إليه.</p></div>
+</div>
+</article>
+<article class="slide"><div class="slide-title"><div class="num">12</div><div><h2>أبدي رأيي وأطبق</h2><p>أنقل الفكرة من النص إلى حياتي</p></div></div><div class="question"><strong>ما رأيك في قول الأم: «يجب ألا نشبع نحن ويجوع الآخرون»؟ علل رأيك.</strong><button class="reveal">إجابة مقترحة</button><div class="answer">أوافق؛ لأن الإنسان مسؤول عن مساعدة من يستطيع مساعدته، ومشاركة الخير تقوي الترابط بين أفراد المجتمع.</div></div></article><article class="slide"><div class="slide-title"><div class="num">12</div><div><h2>أبدي رأيي وأطبق</h2><p>أنقل الفكرة من النص إلى حياتي</p></div></div><div class="question"><strong>إذا رأيت زميلًا لا يملك طعامًا في المدرسة، كيف تطبق قيمة النص؟</strong><button class="reveal">إجابة مقترحة</button><div class="answer">أشاركه طعامي بطريقة تحفظ كرامته، أو أخبر المعلم إن كان يحتاج إلى مساعدة مستمرة.</div></div></article><article class="slide"><div class="slide-title"><div class="num">12</div><div><h2>أبدي رأيي وأطبق</h2><p>أنقل الفكرة من النص إلى حياتي</p></div></div><div class="question"><strong>أيّهما أقوى في التربية: النصيحة أم القدوة؟ استدل من النص.</strong><button class="reveal">إجابة مقترحة</button><div class="answer">القدوة أقوى عندما تصاحب النصيحة؛ فقد رأى الابن أمه تساعد الناس، فصار يساعد الأطفال من تلقاء نفسه.</div></div></article><article class="slide"><div class="slide-title"><div class="num">12</div><div><h2>أبدي رأيي وأطبق</h2><p>أنقل الفكرة من النص إلى حياتي</p></div></div><div class="question"><strong>اكتب عنوانًا آخر مناسبًا للنص.</strong><button class="reveal">إجابة مقترحة</button><div class="answer">مثل: «يد العون»، «العطاء في الشدة»، «أمي قدوتي في الخير». وتقبل العناوين المناسبة.</div></div></article>
+<article class="slide">
+<div class="slide-title"><div class="num">13</div><div><h2>اختبر فهمك</h2><p>تقويم ختامي سريع على السبورة</p></div></div>
+<div id="quiz"></div>
+<div class="card" id="scoreBox" style="display:none;text-align:center;margin-top:18px">
+<h3 id="scoreText"></h3>
+<button class="reveal" onclick="resetQuiz()">إعادة المحاولة</button>
+</div>
+</article>
+<article class="slide">
+<div class="hero">
+<div>
+<span class="eyebrow">🌟 خلاصة الدرس</span>
+<h2 style="font-size:clamp(42px,5vw,78px)">الخير يُعلَّم بالقول… ويثبت بالقدوة</h2>
+<p>في أوقات الشدة تظهر قيمة التعاون، ويصبح العطاء سببًا في تماسك المجتمع، وتبقى القدوة الحسنة أبلغ درس يراه الطفل في حياته.</p>
+</div>
+<div class="hero-card">
+<div class="big-icon">📚</div>
+<h3>الأستاذ خليل البلوشي</h3>
+<p>مادة اللغة العربية – الصف الخامس الأساسي</p>
+</div>
+</div>
+</article>
+</section>
+<div class="nav">
+<button class="prev" id="prev">السابق →</button>
+<div aria-live="polite" class="counter" id="counter"></div>
+<button class="next" id="next">← التالي</button>
+</div><dialog id="menu"><div class="menu-head"><h2>محطات الدرس</h2><button class="ctrl" onclick="closeMenu()">إغلاق ✕</button></div><div id="menuItems"></div></dialog><dialog id="meaning"><h2 id="meaningWord"></h2><p id="meaningText"></p><button class="reveal" onclick="document.getElementById('meaning').close()">إغلاق</button></dialog><div aria-live="polite" id="notice" role="status"></div>
 
-    <article class="slide">
-      <div class="slide-title"><div class="num">8</div><div><h2>الفهم المباشر</h2><p>أستخرج معلومات صريحة من النص</p></div></div>
-      <div class="question"><strong>لماذا كانت عائلة الراوي أفضل حالًا من بعض العائلات الأخرى؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">لأن الطعام وغيره كان موفورًا عندهم رغم ندرته.</div></div>
-      <div class="question"><strong>ماذا كانت الأم تفعل بما يزيد عن حاجة الأسرة؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">كانت تجمع الفائض وتهبه للجيران المحتاجين.</div></div>
-      <div class="question"><strong>اذكر ثلاثًا من وصايا الأم لابنها.</strong><button class="reveal">إظهار الإجابة</button><div class="answer">أن يكون مهذبًا، وألا يوسخ ثيابه، وألا يسيء إلى الآخرين أو يتشاجر معهم، وأن يشارك غيره الطعام.</div></div>
-    </article>
-
-    <article class="slide">
-      <div class="slide-title"><div class="num">9</div><div><h2>الاستنتاج والتحليل</h2><p>أقرأ ما وراء الكلمات</p></div></div>
-      <div class="grid2">
-        <div class="question"><strong>لماذا كانت الأم تذكّر ابنها بموقف الطفل الذي لم يشاركه طعامه؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">لتجعله يشعر بالآخرين من خلال تجربة مرّ بها بنفسه، فيتعلم ألا يكرر السلوك المؤلم مع غيره.</div></div>
-        <div class="question"><strong>ما أثر المساعدة في نفس الأم؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">جعلتها سعيدة وشعرت براحة نفسية لأنها أعانت الناس وردّت الجميل.</div></div>
-        <div class="question"><strong>كيف ساعدت القدوة العملية على تربية الابن؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">رأى أمه تمارس الخير فعليًا، فتحولت النصيحة عنده إلى سلوك تلقائي.</div></div>
-        <div class="question"><strong>ما الشعور الذي يغلب على أهل الحي في النص؟</strong><button class="reveal">إظهار الإجابة</button><div class="answer">التعاضد والتعاون رغم الخوف والحاجة والصعوبات.</div></div>
-      </div>
-    </article>
-
-    <article class="slide">
-      <div class="slide-title"><div class="num">10</div><div><h2>العلاقات بين الجمل</h2><p>أفهم كيف يرتبط المعنى من جملة إلى أخرى</p></div></div>
-      <div class="relation">
-        <div class="sentence">جابوا المدينة باحثين عن العمل والرزق.</div>
-        <div class="arrow">←</div>
-        <div class="sentence"><span class="badge">سبب / وسيلة</span><br>لأنهم كانوا يواجهون الشدة ويريدون الصمود.</div>
-      </div>
-      <div class="relation">
-        <div class="sentence">كانت الأم سعيدة وتشعر براحة نفسية.</div>
-        <div class="arrow">←</div>
-        <div class="sentence"><span class="badge">تعليل</span><br>إذ يسّر الله لها أن تمد يدًا للناس كما مد الناس أيديهم إليها.</div>
-      </div>
-      <div class="relation">
-        <div class="sentence">كانت الأم تحث ابنها على الخير.</div>
-        <div class="arrow">←</div>
-        <div class="sentence"><span class="badge">نتيجة</span><br>فصار الابن يحمل الطعام إلى أطفال الحي دون تذكير.</div>
-      </div>
-      <div class="card" style="margin-top:18px">
-        <h3>إشارات تساعدني</h3>
-        <p><b>التعليل:</b> لأن، إذ، بسبب. &nbsp; <b>النتيجة:</b> لذلك، لذا، ومن أجل ذلك. &nbsp; <b>التضاد:</b> لكن، رغم، غير أن.</p>
-      </div>
-    </article>
-
-    <article class="slide">
-      <div class="slide-title"><div class="num">11</div><div><h2>الشخصيات والقيم</h2><p>أستدل من المواقف والأفعال</p></div></div>
-      <div class="grid2">
-        <div class="card"><h3>الأم</h3><p><b>صفاتها:</b> كريمة، رحيمة، وفية، مربية بالقدوة.</p><p><b>الدليل:</b> تهب الفائض للجيران، تعطي المال، تدعو للناس، وتحث ابنها على الخير.</p></div>
-        <div class="card"><h3>الابن</h3><p><b>صفاته:</b> مطيع، متأثر بالقدوة، محب للخير.</p><p><b>الدليل:</b> صار يحمل الطعام للأطفال دون أن يحتاج إلى تذكير.</p></div>
-      </div>
-      <div class="grid3" style="margin-top:18px">
-        <div class="card"><h3>🤝 التعاون</h3><p>يسند الناس بعضهم بعضًا وقت الشدة.</p></div>
-        <div class="card"><h3>💛 العطاء</h3><p>مشاركة ما نملك مع المحتاج.</p></div>
-        <div class="card"><h3>🌱 رد الجميل</h3><p>لا ننسى من أعاننا حين كنا بحاجة إليه.</p></div>
-      </div>
-    </article>
-
-    <article class="slide">
-      <div class="slide-title"><div class="num">12</div><div><h2>أبدي رأيي وأطبق</h2><p>أنقل الفكرة من النص إلى حياتي</p></div></div>
-      <div class="grid2">
-        <div class="question"><strong>ما رأيك في قول الأم: «يجب ألا نشبع نحن ويجوع الآخرون»؟ علل رأيك.</strong><button class="reveal">إجابة مقترحة</button><div class="answer">أوافق؛ لأن الإنسان مسؤول عن مساعدة من يستطيع مساعدته، ومشاركة الخير تقوي الترابط بين أفراد المجتمع.</div></div>
-        <div class="question"><strong>إذا رأيت زميلًا لا يملك طعامًا في المدرسة، كيف تطبق قيمة النص؟</strong><button class="reveal">إجابة مقترحة</button><div class="answer">أشاركه طعامي بطريقة تحفظ كرامته، أو أخبر المعلم إن كان يحتاج إلى مساعدة مستمرة.</div></div>
-        <div class="question"><strong>أيّهما أقوى في التربية: النصيحة أم القدوة؟ استدل من النص.</strong><button class="reveal">إجابة مقترحة</button><div class="answer">القدوة أقوى عندما تصاحب النصيحة؛ فقد رأى الابن أمه تساعد الناس، فصار يساعد الأطفال من تلقاء نفسه.</div></div>
-        <div class="question"><strong>اكتب عنوانًا آخر مناسبًا للنص.</strong><button class="reveal">إجابة مقترحة</button><div class="answer">مثل: «يد العون»، «العطاء في الشدة»، «أمي قدوتي في الخير». وتقبل العناوين المناسبة.</div></div>
-      </div>
-    </article>
-
-    <article class="slide">
-      <div class="slide-title"><div class="num">13</div><div><h2>اختبر فهمك</h2><p>تقويم ختامي سريع على السبورة</p></div></div>
-      <div id="quiz"></div>
-      <div id="scoreBox" class="card" style="display:none;text-align:center;margin-top:18px">
-        <h3 id="scoreText"></h3>
-        <button class="reveal" onclick="resetQuiz()">إعادة المحاولة</button>
-      </div>
-    </article>
-
-    <article class="slide">
-      <div class="hero">
-        <div>
-          <span class="eyebrow">🌟 خلاصة الدرس</span>
-          <h2 style="font-size:clamp(42px,5vw,78px)">الخير يُعلَّم بالقول… ويثبت بالقدوة</h2>
-          <p>في أوقات الشدة تظهر قيمة التعاون، ويصبح العطاء سببًا في تماسك المجتمع، وتبقى القدوة الحسنة أبلغ درس يراه الطفل في حياته.</p>
-        </div>
-        <div class="hero-card">
-          <div class="big-icon">📚</div>
-          <h3>الأستاذ خليل البلوشي</h3>
-          <p>مادة اللغة العربية – الصف الخامس الأساسي</p>
-        </div>
-      </div>
-    </article>
-
-  </section>
-
-  <div class="nav">
-    <button class="prev" id="prev">السابق →</button>
-    <div class="counter" id="counter"></div>
-    <button class="next" id="next">← التالي</button>
-  </div>
-  <div class="footer-note">يمكن التنقل بالسهمين من لوحة المفاتيح، واستخدام زر ملء الشاشة عند العرض على التلفاز أو السبورة التفاعلية.</div>
 </main>
-
 <script>
 const slides=[...document.querySelectorAll('.slide')];
-let current=0, fontScale=1;
-
-function showSlide(i){
-  current=Math.max(0,Math.min(i,slides.length-1));
-  slides.forEach((s,idx)=>s.classList.toggle('active',idx===current));
-  document.getElementById('counter').textContent=`${current+1} / ${slides.length}`;
-  document.getElementById('progress').style.width=`${((current+1)/slides.length)*100}%`;
-  document.getElementById('prev').disabled=current===0;
-  document.getElementById('next').disabled=current===slides.length-1;
-  window.scrollTo({top:0,behavior:'smooth'});
-}
+let current=0,fontScale=1,quizIndex=0;
+const arabic=n=>String(n).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
+function showSlide(i){current=Math.max(0,Math.min(i,slides.length-1));slides.forEach((s,j)=>s.classList.toggle('active',j===current));slides[current].scrollTop=0;document.getElementById('counter').textContent=arabic(current+1)+' / '+arabic(slides.length);document.getElementById('progress').style.width=((current+1)/slides.length*100)+'%';document.getElementById('prev').disabled=current===0;document.getElementById('next').disabled=current===slides.length-1;}
 function goTo(i){showSlide(i)}
-document.getElementById('prev').onclick=()=>showSlide(current-1);
-document.getElementById('next').onclick=()=>showSlide(current+1);
-document.addEventListener('keydown',e=>{
-  if(e.key==='ArrowLeft') showSlide(current+1);
-  if(e.key==='ArrowRight') showSlide(current-1);
-});
-document.querySelectorAll('.reveal').forEach(btn=>{
-  if(btn.closest('#scoreBox')) return;
-  btn.addEventListener('click',()=>{
-    const a=btn.parentElement.querySelector('.answer');
-    if(!a)return;
-    a.classList.toggle('show');
-    btn.textContent=a.classList.contains('show')?'إخفاء الإجابة':'إظهار الإجابة';
-  });
-});
-document.querySelectorAll('.option').forEach(btn=>{
-  btn.addEventListener('click',()=>{
-    const box=btn.parentElement;
-    if(box.dataset.done)return;
-    box.dataset.done='1';
-    [...box.children].forEach(b=>{
-      if(b.dataset.correct==='1')b.classList.add('correct');
-    });
-    if(btn.dataset.correct!=='1')btn.classList.add('wrong');
-  });
-});
-function changeFont(step){
-  fontScale=Math.max(.85,Math.min(1.25,fontScale+step*.05));
-  document.documentElement.style.fontSize=(16*fontScale)+'px';
-}
-function toggleFullscreen(){
-  if(!document.fullscreenElement) document.documentElement.requestFullscreen?.();
-  else document.exitFullscreen?.();
-}
-
+document.getElementById('prev').onclick=()=>showSlide(current-1);document.getElementById('next').onclick=()=>showSlide(current+1);
+document.addEventListener('keydown',e=>{if(document.querySelector('dialog[open]')||e.target.matches('input,select,textarea'))return;if(e.key==='ArrowLeft'){e.preventDefault();showSlide(current+1)}if(e.key==='ArrowRight'){e.preventDefault();showSlide(current-1)}if(e.key==='Home'){e.preventDefault();showSlide(0)}if(e.key==='End'){e.preventDefault();showSlide(slides.length-1)}});
+document.querySelectorAll('.reveal').forEach(btn=>{if(btn.closest('#scoreBox'))return;btn.setAttribute('aria-expanded','false');btn.addEventListener('click',()=>{const a=btn.parentElement.querySelector('.answer');if(!a)return;const visible=a.classList.toggle('show');btn.textContent=visible?'إخفاء الإجابة':'إظهار الإجابة';btn.setAttribute('aria-expanded',String(visible));if(visible)a.scrollIntoView({block:'nearest',behavior:'smooth'})})});
+document.querySelectorAll('.option').forEach(btn=>btn.addEventListener('click',()=>{const box=btn.parentElement;if(box.dataset.done)return;box.dataset.done='1';[...box.children].forEach(b=>{if(b.dataset.correct==='1')b.classList.add('correct')});if(btn.dataset.correct!=='1')btn.classList.add('wrong')}));
+function applyFont(){const all=document.querySelectorAll('.slide h2,.slide h3,.slide p,.slide li,.reading-box,.question strong,.answer,.option,.idea,.sentence,.mini-table td,.mini-table th');all.forEach(el=>el.style.removeProperty('font-size'));const base=[...all].map(el=>parseFloat(getComputedStyle(el).fontSize));all.forEach((el,i)=>el.style.fontSize=(base[i]*fontScale)+'px')}
+function changeFont(step){fontScale=Math.max(.85,Math.min(1.4,Math.round((fontScale+step*.1)*100)/100));applyFont();notice('حجم الخط '+arabic(Math.round(fontScale*100))+'٪')}
+let noticeTimer;function notice(msg){const n=document.getElementById('notice');n.textContent=msg;n.style.display='block';clearTimeout(noticeTimer);noticeTimer=setTimeout(()=>n.style.display='none',2200)}
+async function toggleFullscreen(){try{if(document.fullscreenElement)await document.exitFullscreen();else if(document.documentElement.requestFullscreen)await document.documentElement.requestFullscreen();else notice('ملء الشاشة غير متاح في هذا المتصفح')}catch(e){notice('افتح الملف في المتصفح لتفعيل ملء الشاشة')}}
+function openMenu(){document.getElementById('menu').showModal()}function closeMenu(){document.getElementById('menu').close()}
+slides.forEach((slide,i)=>{const b=document.createElement('button');b.textContent=arabic(i+1)+' — '+(slide.querySelector('h2')?.textContent||'محطة الدرس');b.onclick=()=>{showSlide(i);closeMenu()};document.getElementById('menuItems').appendChild(b)});
+document.querySelectorAll('.vocab').forEach(v=>{v.setAttribute('role','button');const open=()=>{document.getElementById('meaningWord').textContent=v.textContent;document.getElementById('meaningText').textContent=v.dataset.meaning;document.getElementById('meaning').showModal()};v.onclick=open;v.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}}});
 const quizData=[
   {q:'ما القيمة الأساسية التي يدور حولها النص؟',o:['المنافسة','التعاون والعطاء','السفر','الادخار فقط'],a:1},
   {q:'لماذا كانت الأم سعيدة عندما تساعد الجيران؟',o:['لأنها تريد الشهرة','لأنها ترد الجميل وتشعر براحة نفسية','لأنها تبيع الطعام','لأنها لا تحتاج إلى الجيران'],a:1},
@@ -541,35 +485,12 @@ const quizData=[
   {q:'أي عبارة تدل على عدم الاستسلام؟',o:['ظل الحي يعاني','تشبثوا بالحياة','كانت أمي تسأل ربها','كانت تطلعني على كل شيء'],a:1},
   {q:'ما العلاقة في: كانت الأم تساعد الجيران، لذلك اقتدى بها ابنها؟',o:['سبب ونتيجة','ترادف','تضاد','تفصيل بعد إجمال'],a:0}
 ];
-let answered=0,score=0;
-function renderQuiz(){
-  const q=document.getElementById('quiz');
-  q.innerHTML='';
-  quizData.forEach((item,idx)=>{
-    const box=document.createElement('div');
-    box.className='question';
-    box.innerHTML=`<strong>${idx+1}. ${item.q}</strong><div class="options"></div>`;
-    const opts=box.querySelector('.options');
-    item.o.forEach((op,oi)=>{
-      const b=document.createElement('button'); b.className='option'; b.textContent=op;
-      b.onclick=()=>{
-        if(box.dataset.done)return;
-        box.dataset.done='1'; answered++;
-        [...opts.children].forEach((x,j)=>{ if(j===item.a)x.classList.add('correct')});
-        if(oi===item.a)score++; else b.classList.add('wrong');
-        if(answered===quizData.length){
-          const sb=document.getElementById('scoreBox'); sb.style.display='block';
-          document.getElementById('scoreText').textContent=`نتيجتك: ${score} من ${quizData.length}`;
-        }
-      };
-      opts.appendChild(b);
-    });
-    q.appendChild(box);
-  });
-}
-function resetQuiz(){answered=0;score=0;document.getElementById('scoreBox').style.display='none';renderQuiz()}
-renderQuiz();
-showSlide(0);
+let quizAnswers=Array(quizData.length).fill(null);
+function renderQuiz(){const item=quizData[quizIndex],q=document.getElementById('quiz');q.innerHTML='';const tools=document.createElement('div');tools.className='quiz-tools';tools.innerHTML='<span>السؤال '+arabic(quizIndex+1)+' من '+arabic(quizData.length)+'</span>';const back=document.createElement('button');back.className='ctrl';back.textContent='السؤال السابق';back.disabled=quizIndex===0;back.onclick=()=>{quizIndex--;renderQuiz()};tools.appendChild(back);q.appendChild(tools);const box=document.createElement('div');box.className='question';const title=document.createElement('strong');title.textContent=item.q;box.appendChild(title);const opts=document.createElement('div');opts.className='options';item.o.forEach((op,oi)=>{const b=document.createElement('button');b.className='option';b.textContent=op;const selected=quizAnswers[quizIndex];if(selected!==null){if(oi===item.a)b.classList.add('correct');if(oi===selected&&oi!==item.a)b.classList.add('wrong')}b.onclick=()=>{if(quizAnswers[quizIndex]!==null)return;quizAnswers[quizIndex]=oi;renderQuiz()};opts.appendChild(b)});box.appendChild(opts);q.appendChild(box);const answered=quizAnswers[quizIndex]!==null;if(answered){const next=document.createElement('button');next.className='reveal';next.textContent=quizIndex<quizData.length-1?'السؤال التالي ←':'عرض النتيجة';next.onclick=()=>{if(quizIndex<quizData.length-1){quizIndex++;renderQuiz()}else{const missing=quizAnswers.indexOf(null);if(missing>=0){quizIndex=missing;renderQuiz();notice('أكمل هذا السؤال أولًا')}else{document.getElementById('scoreBox').style.display='block';document.getElementById('scoreText').textContent='النتيجة: '+arabic(quizAnswers.filter((a,i)=>a===quizData[i].a).length)+' من '+arabic(quizData.length);document.getElementById('scoreBox').scrollIntoView({block:'nearest'})}}};q.appendChild(next)}applyFont()}
+function resetQuiz(){quizAnswers.fill(null);quizIndex=0;document.getElementById('scoreBox').style.display='none';renderQuiz()}
+let resizeTimer;window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(applyFont,100)});
+document.querySelectorAll('.num,.badge').forEach(e=>{if(/^\d+$/.test(e.textContent.trim()))e.textContent=arabic(e.textContent.trim())});
+renderQuiz();showSlide(0);
 </script>
 </body>
 </html>
